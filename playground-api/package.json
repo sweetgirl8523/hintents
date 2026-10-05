@@ -4,9 +4,9 @@
   "description": "Backend engine for compiling Rust code to WASM and executing it in the Erst simulator.",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn src/server.ts"
+    "build": "node init && tsc",
+    "start": "node init && node dist/server.js",
+    "dev": "node init && ts-node-dev --respawn src/server.ts"
   },
   "dependencies": {
     "express": "^4.19.2",
