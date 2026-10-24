@@ -8,7 +8,6 @@ bin/
 
 # --- OS/System Files ---
 .DS_Store
-.env
 .env.example
 .cursorrules
 Thumbs.db
@@ -40,7 +39,6 @@ ishus.py
 create_phase9.py
 .gemini/
 .idea/
-.vscode/
 .next/
 
 ishus.py
@@ -132,3 +130,4 @@ Resource.rc
 *.flamegraph.svg
 *.flamegraph.html
 .npm-cache/
+config.bat
